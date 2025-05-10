@@ -1,0 +1,33 @@
+[0.713s] Invoking command in '/home/itspriiyanshu/Ros_assign/src/my_package': PYTHONPATH=/home/itspriiyanshu/Ros_assign/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/itspriiyanshu/Ros_assign/build/my_package/build install --record /home/itspriiyanshu/Ros_assign/build/my_package/install.log --single-version-externally-managed install_data
+[0.890s] running egg_info
+[0.890s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.891s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.892s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.892s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.903s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] copying my_package/subscriber_node.py -> /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package
+[0.908s] copying my_package/runner_node.py -> /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package
+[0.908s] copying my_package/publisher_node.py -> /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package
+[0.909s] running install
+[0.909s] running install_lib
+[0.910s] copying /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package/subscriber_node.py -> /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package
+[0.911s] copying /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package/runner_node.py -> /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package
+[0.911s] copying /home/itspriiyanshu/Ros_assign/build/my_package/build/lib/my_package/publisher_node.py -> /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package
+[0.912s] byte-compiling /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package/subscriber_node.py to subscriber_node.cpython-310.pyc
+[0.913s] byte-compiling /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package/runner_node.py to runner_node.cpython-310.pyc
+[0.913s] byte-compiling /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package/publisher_node.py to publisher_node.cpython-310.pyc
+[0.914s] running install_data
+[0.914s] copying package.xml -> /home/itspriiyanshu/Ros_assign/install/my_package/share/my_package
+[0.914s] creating /home/itspriiyanshu/Ros_assign/install/my_package/share/my_package/launch
+[0.915s] running install_egg_info
+[0.917s] removing '/home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.917s] Copying ../../build/my_package/my_package.egg-info to /home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.921s] running install_scripts
+[0.939s] Installing publisher_node script to /home/itspriiyanshu/Ros_assign/install/my_package/lib/my_package
+[0.939s] Installing subscriber_node script to /home/itspriiyanshu/Ros_assign/install/my_package/lib/my_package
+[0.939s] writing list of installed files to '/home/itspriiyanshu/Ros_assign/build/my_package/install.log'
+[0.967s] Invoked command in '/home/itspriiyanshu/Ros_assign/src/my_package' returned '0': PYTHONPATH=/home/itspriiyanshu/Ros_assign/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/itspriiyanshu/Ros_assign/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/itspriiyanshu/Ros_assign/build/my_package/build install --record /home/itspriiyanshu/Ros_assign/build/my_package/install.log --single-version-externally-managed install_data
