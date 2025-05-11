@@ -1,0 +1,5 @@
+[console_scripts]
+listener = py_pubsub.sub:main
+open = py_pubsub.open:main
+talker = py_pubsub.pub:main
+
