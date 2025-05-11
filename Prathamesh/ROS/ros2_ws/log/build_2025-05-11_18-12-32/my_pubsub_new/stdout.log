@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_pubsub_new.egg-info/PKG-INFO
+writing dependency_links to my_pubsub_new.egg-info/dependency_links.txt
+writing entry points to my_pubsub_new.egg-info/entry_points.txt
+writing requirements to my_pubsub_new.egg-info/requires.txt
+writing top-level names to my_pubsub_new.egg-info/top_level.txt
+reading manifest file 'my_pubsub_new.egg-info/SOURCES.txt'
+writing manifest file 'my_pubsub_new.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/devdas/ros2_ws/install/my_pubsub_new/lib/python3.10/site-packages/my-pubsub-new.egg-link (link to .)
+Installing listener script to /home/devdas/ros2_ws/install/my_pubsub_new/lib/my_pubsub_new
+Installing talker script to /home/devdas/ros2_ws/install/my_pubsub_new/lib/my_pubsub_new
+
+Installed /home/devdas/ros2_ws/build/my_pubsub_new
+running symlink_data
+creating /home/devdas/ros2_ws/install/my_pubsub_new/share/my_pubsub_new/launch
+symbolically linking /home/devdas/ros2_ws/build/my_pubsub_new/launch/talk_listen_launch.py -> /home/devdas/ros2_ws/install/my_pubsub_new/share/my_pubsub_new/launch
