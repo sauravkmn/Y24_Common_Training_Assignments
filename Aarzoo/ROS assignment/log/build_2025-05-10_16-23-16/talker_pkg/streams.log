@@ -1,0 +1,20 @@
+[0.534s] Invoking command in '/home/aarzoo/ros2_ws/talker_pkg': PYTHONPATH=/home/aarzoo/ros2_ws/build/talker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aarzoo/ros2_ws/install/talker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker_pkg build --build-base /home/aarzoo/ros2_ws/build/talker_pkg/build install --record /home/aarzoo/ros2_ws/build/talker_pkg/install.log --single-version-externally-managed install_data
+[0.666s] running egg_info
+[0.666s] writing ../build/talker_pkg/talker_pkg.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../build/talker_pkg/talker_pkg.egg-info/dependency_links.txt
+[0.667s] writing entry points to ../build/talker_pkg/talker_pkg.egg-info/entry_points.txt
+[0.667s] writing requirements to ../build/talker_pkg/talker_pkg.egg-info/requires.txt
+[0.667s] writing top-level names to ../build/talker_pkg/talker_pkg.egg-info/top_level.txt
+[0.668s] reading manifest file '../build/talker_pkg/talker_pkg.egg-info/SOURCES.txt'
+[0.668s] writing manifest file '../build/talker_pkg/talker_pkg.egg-info/SOURCES.txt'
+[0.668s] running build
+[0.668s] running build_py
+[0.668s] running install
+[0.669s] running install_lib
+[0.670s] running install_data
+[0.670s] running install_egg_info
+[0.671s] removing '/home/aarzoo/ros2_ws/install/talker_pkg/lib/python3.10/site-packages/talker_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.671s] Copying ../build/talker_pkg/talker_pkg.egg-info to /home/aarzoo/ros2_ws/install/talker_pkg/lib/python3.10/site-packages/talker_pkg-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.684s] writing list of installed files to '/home/aarzoo/ros2_ws/build/talker_pkg/install.log'
+[0.708s] Invoked command in '/home/aarzoo/ros2_ws/talker_pkg' returned '0': PYTHONPATH=/home/aarzoo/ros2_ws/build/talker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aarzoo/ros2_ws/install/talker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/talker_pkg build --build-base /home/aarzoo/ros2_ws/build/talker_pkg/build install --record /home/aarzoo/ros2_ws/build/talker_pkg/install.log --single-version-externally-managed install_data

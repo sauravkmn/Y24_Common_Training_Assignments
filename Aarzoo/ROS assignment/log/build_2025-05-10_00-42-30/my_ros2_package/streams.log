@@ -1,0 +1,39 @@
+[0.709s] Invoking command in '/home/aarzoo/ros2_ws/src/my_ros2_package': PYTHONPATH=/home/aarzoo/ros2_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/aarzoo/ros2_ws/build/my_ros2_package/build install --record /home/aarzoo/ros2_ws/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[0.889s] running egg_info
+[0.890s] creating ../../build/my_ros2_package/my_ros2_package.egg-info
+[0.890s] writing ../../build/my_ros2_package/my_ros2_package.egg-info/PKG-INFO
+[0.890s] writing dependency_links to ../../build/my_ros2_package/my_ros2_package.egg-info/dependency_links.txt
+[0.890s] writing entry points to ../../build/my_ros2_package/my_ros2_package.egg-info/entry_points.txt
+[0.890s] writing requirements to ../../build/my_ros2_package/my_ros2_package.egg-info/requires.txt
+[0.890s] writing top-level names to ../../build/my_ros2_package/my_ros2_package.egg-info/top_level.txt
+[0.890s] writing manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'
+[0.892s] reading manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] creating /home/aarzoo/ros2_ws/build/my_ros2_package/build
+[0.893s] creating /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib
+[0.894s] creating /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package
+[0.894s] copying my_ros2_package/listener.py -> /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package
+[0.894s] copying my_ros2_package/setup.py -> /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package
+[0.894s] copying my_ros2_package/__init__.py -> /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package
+[0.894s] running install
+[0.894s] running install_lib
+[0.894s] creating /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package
+[0.894s] copying /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package/listener.py -> /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package
+[0.894s] copying /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package/setup.py -> /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package
+[0.895s] copying /home/aarzoo/ros2_ws/build/my_ros2_package/build/lib/my_ros2_package/__init__.py -> /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package
+[0.895s] byte-compiling /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/listener.py to listener.cpython-310.pyc
+[0.896s] byte-compiling /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/setup.py to setup.cpython-310.pyc
+[0.896s] byte-compiling /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__init__.py to __init__.cpython-310.pyc
+[0.896s] running install_data
+[0.896s] creating /home/aarzoo/ros2_ws/install/my_ros2_package/share/ament_index
+[0.896s] creating /home/aarzoo/ros2_ws/install/my_ros2_package/share/ament_index/resource_index
+[0.896s] creating /home/aarzoo/ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages
+[0.896s] copying resource/my_ros2_package -> /home/aarzoo/ros2_ws/install/my_ros2_package/share/ament_index/resource_index/packages
+[0.896s] copying package.xml -> /home/aarzoo/ros2_ws/install/my_ros2_package/share/my_ros2_package
+[0.896s] running install_egg_info
+[0.898s] Copying ../../build/my_ros2_package/my_ros2_package.egg-info to /home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.922s] writing list of installed files to '/home/aarzoo/ros2_ws/build/my_ros2_package/install.log'
+[0.978s] Invoked command in '/home/aarzoo/ros2_ws/src/my_ros2_package' returned '0': PYTHONPATH=/home/aarzoo/ros2_ws/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aarzoo/ros2_ws/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/aarzoo/ros2_ws/build/my_ros2_package/build install --record /home/aarzoo/ros2_ws/build/my_ros2_package/install.log --single-version-externally-managed install_data
