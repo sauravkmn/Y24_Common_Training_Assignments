@@ -1,0 +1,4 @@
+Invoking command in '/home/aarzoo/ros2_ws/build/my_talker_listener': /usr/bin/cmake --build /home/aarzoo/ros2_ws/build/my_talker_listener -- -j16 -l16
+Invoked command in '/home/aarzoo/ros2_ws/build/my_talker_listener' returned '0': /usr/bin/cmake --build /home/aarzoo/ros2_ws/build/my_talker_listener -- -j16 -l16
+Invoking command in '/home/aarzoo/ros2_ws/build/my_talker_listener': /usr/bin/cmake --install /home/aarzoo/ros2_ws/build/my_talker_listener
+Invoked command in '/home/aarzoo/ros2_ws/build/my_talker_listener' returned '0': /usr/bin/cmake --install /home/aarzoo/ros2_ws/build/my_talker_listener
