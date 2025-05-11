@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+launch/talk_listen_launch.py
+my_pubsub_new/__init__.py
+my_pubsub_new/listener.py
+my_pubsub_new/talker.py
+my_pubsub_new.egg-info/PKG-INFO
+my_pubsub_new.egg-info/SOURCES.txt
+my_pubsub_new.egg-info/dependency_links.txt
+my_pubsub_new.egg-info/entry_points.txt
+my_pubsub_new.egg-info/requires.txt
+my_pubsub_new.egg-info/top_level.txt
+my_pubsub_new.egg-info/zip-safe
+resource/my_pubsub_new

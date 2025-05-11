@@ -1,0 +1,25 @@
+[0.362s] Invoking command in '/home/devdas/ros2_ws/build/my_pubsub_new': PYTHONPATH=/home/devdas/ros2_ws/build/my_pubsub_new/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devdas/ros2_ws/install/my_pubsub_new/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devdas/ros2_ws/build/my_pubsub_new/build --no-deps symlink_data
+[0.525s] running develop
+[0.608s] running egg_info
+[0.608s] creating my_pubsub_new.egg-info
+[0.608s] writing my_pubsub_new.egg-info/PKG-INFO
+[0.608s] writing dependency_links to my_pubsub_new.egg-info/dependency_links.txt
+[0.608s] writing entry points to my_pubsub_new.egg-info/entry_points.txt
+[0.608s] writing requirements to my_pubsub_new.egg-info/requires.txt
+[0.608s] writing top-level names to my_pubsub_new.egg-info/top_level.txt
+[0.608s] writing manifest file 'my_pubsub_new.egg-info/SOURCES.txt'
+[0.609s] reading manifest file 'my_pubsub_new.egg-info/SOURCES.txt'
+[0.609s] writing manifest file 'my_pubsub_new.egg-info/SOURCES.txt'
+[0.610s] running build_ext
+[0.610s] Creating /home/devdas/ros2_ws/install/my_pubsub_new/lib/python3.10/site-packages/my-pubsub-new.egg-link (link to .)
+[0.611s] Installing listener script to /home/devdas/ros2_ws/install/my_pubsub_new/lib/my_pubsub_new
+[0.611s] Installing talker script to /home/devdas/ros2_ws/install/my_pubsub_new/lib/my_pubsub_new
+[0.611s] 
+[0.611s] Installed /home/devdas/ros2_ws/build/my_pubsub_new
+[0.611s] running symlink_data
+[0.611s] creating /home/devdas/ros2_ws/install/my_pubsub_new/share/ament_index
+[0.611s] creating /home/devdas/ros2_ws/install/my_pubsub_new/share/ament_index/resource_index
+[0.611s] creating /home/devdas/ros2_ws/install/my_pubsub_new/share/ament_index/resource_index/packages
+[0.611s] symbolically linking /home/devdas/ros2_ws/build/my_pubsub_new/resource/my_pubsub_new -> /home/devdas/ros2_ws/install/my_pubsub_new/share/ament_index/resource_index/packages
+[0.612s] symbolically linking /home/devdas/ros2_ws/build/my_pubsub_new/package.xml -> /home/devdas/ros2_ws/install/my_pubsub_new/share/my_pubsub_new
+[0.640s] Invoked command in '/home/devdas/ros2_ws/build/my_pubsub_new' returned '0': PYTHONPATH=/home/devdas/ros2_ws/build/my_pubsub_new/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devdas/ros2_ws/install/my_pubsub_new/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devdas/ros2_ws/build/my_pubsub_new/build --no-deps symlink_data
