@@ -1,0 +1,28 @@
+[0.342s] Invoking command in '/home/hamza24/ros2_ws/src/py_pub_sub': PYTHONPATH=/home/hamza24/ros2_ws/build/py_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/hamza24/ros2_ws/build/py_pub_sub/build install --record /home/hamza24/ros2_ws/build/py_pub_sub/install.log --single-version-externally-managed install_data
+[0.474s] running egg_info
+[0.474s] writing ../../build/py_pub_sub/py_pub_sub.egg-info/PKG-INFO
+[0.475s] writing dependency_links to ../../build/py_pub_sub/py_pub_sub.egg-info/dependency_links.txt
+[0.475s] writing entry points to ../../build/py_pub_sub/py_pub_sub.egg-info/entry_points.txt
+[0.475s] writing requirements to ../../build/py_pub_sub/py_pub_sub.egg-info/requires.txt
+[0.475s] writing top-level names to ../../build/py_pub_sub/py_pub_sub.egg-info/top_level.txt
+[0.476s] reading manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/py_pub_sub/py_pub_sub.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] copying py_pub_sub/talker.py -> /home/hamza24/ros2_ws/build/py_pub_sub/build/lib/py_pub_sub
+[0.476s] copying py_pub_sub/listener.py -> /home/hamza24/ros2_ws/build/py_pub_sub/build/lib/py_pub_sub
+[0.476s] running install
+[0.477s] running install_lib
+[0.477s] copying /home/hamza24/ros2_ws/build/py_pub_sub/build/lib/py_pub_sub/talker.py -> /home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub
+[0.477s] copying /home/hamza24/ros2_ws/build/py_pub_sub/build/lib/py_pub_sub/listener.py -> /home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub
+[0.477s] byte-compiling /home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub/talker.py to talker.cpython-310.pyc
+[0.478s] byte-compiling /home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub/listener.py to listener.cpython-310.pyc
+[0.478s] running install_data
+[0.478s] running install_egg_info
+[0.479s] removing '/home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.479s] Copying ../../build/py_pub_sub/py_pub_sub.egg-info to /home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages/py_pub_sub-0.0.0-py3.10.egg-info
+[0.480s] running install_scripts
+[0.492s] Installing listener script to /home/hamza24/ros2_ws/install/py_pub_sub/lib/py_pub_sub
+[0.493s] Installing talker script to /home/hamza24/ros2_ws/install/py_pub_sub/lib/py_pub_sub
+[0.493s] writing list of installed files to '/home/hamza24/ros2_ws/build/py_pub_sub/install.log'
+[0.508s] Invoked command in '/home/hamza24/ros2_ws/src/py_pub_sub' returned '0': PYTHONPATH=/home/hamza24/ros2_ws/build/py_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hamza24/ros2_ws/install/py_pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pub_sub build --build-base /home/hamza24/ros2_ws/build/py_pub_sub/build install --record /home/hamza24/ros2_ws/build/py_pub_sub/install.log --single-version-externally-managed install_data

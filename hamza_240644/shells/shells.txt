@@ -1,0 +1,23 @@
+A shell ats as an interface between the user and the operating system. It gives commands to kernel(Linux) and which further through OS manage files, runs hardwares etc.
+
+command prompt(cmd):-
+ used on - windows
+ used for - batch scripting, running programs etc
+ limitation- limited scripting capabilities
+ minimal access to system internals
+
+powershell-
+ used on - windows, macos, Linux
+ used for - powerful scripting, remote management, Automating Windows tasks, managing servers, complex scripting, interacting with APIs.
+ deep internal access to system
+ 
+bash(bourne again shell)-
+ used on- Linux, unix, macos, win(wsl)
+ used for - System administration, automation, scripting, software development.
+ improved version of the original Bourne shell (sh)
+
+anaconda - 
+used on - win, Linux, unix
+Anaconda is not a shell itself, but a Python distribution that includes the conda command-line tool. The conda shell is used to manage Python environments and packages, especially for data science and machine learning.
+ used for -  Environment management, package management, reproducibility 
+Setting up isolated Python/R environments, installing scientific libraries, managing dependencies in data science workflows.
