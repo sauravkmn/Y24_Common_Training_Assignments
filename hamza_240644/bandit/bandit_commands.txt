@@ -1,0 +1,43 @@
+https://1drv.ms/o/c/cd30f5c13d8d9794/Ego2Wka68K1Ko-ZUWRsij3sBT1_2BLCGVllNfG7CMeeehg?e=2JYX18
+
+Level 1
+Password- ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+Level 2
+Pswd- 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+To open a dashed file use ./ before it
+
+Level- 3
+Pswd- MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+ if filenames contains spaces then to read them us qoutes.
+
+Level 4
+Pswd- 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+ ls -a
+
+Level 5
+Pswd- 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+Check all the files
+
+Level 6
+Pswd- 
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+find . -type f -size 1033c ! executable
+
+Level - 7
+Pswd- morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Find / -user bandit7 -group bandit 6 -size 33c 2>/dev/null
+
+Level 8 
+Pswd - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+Using grep "millionth" data.txt
+
+Level -9 
+Pswd- 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+Using sort data.txt | uniq -c
+
+level 10
+pswd - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+strings data.txt | grep '='/
+strings data.txt | awk '/=+/{print $0}'
+
