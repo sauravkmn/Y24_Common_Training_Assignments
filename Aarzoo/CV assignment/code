@@ -1,0 +1,125 @@
+import cv2
+import numpy as np
+from google.colab import files
+import os
+
+def load_image(image_path):
+    """Load an image and convert it to grayscale."""
+    # Read the image
+    img = cv2.imread(image_path)
+    if img is None:
+        raise FileNotFoundError(f"Could not open or find the image: {image_path}")
+    
+    # Convert to grayscale
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    return gray
+
+def resize_image(image, max_width=80):
+    """Resize image to fit within specified width while maintaining aspect ratio."""
+    height, width = image.shape
+    # Calculate the new height to maintain aspect ratio
+    # Braille is 2:1 (height:width), so we need to account for that
+    new_width = min(width, max_width)
+    new_height = int((new_width / width) * height * 0.5)  # 0.5 factor for Braille aspect ratio
+    
+    # Resize the image
+    resized = cv2.resize(image, (new_width, new_height))
+    return resized
+
+def threshold_image(image, threshold=127):
+    """Apply thresholding to convert grayscale to binary."""
+    _, binary = cv2.threshold(image, threshold, 255, cv2.THRESH_BINARY)
+    return binary
+
+def image_to_braille(image):
+    """Convert binary image to Braille characters."""
+    height, width = image.shape
+    # Ensure the dimensions are even for proper Braille conversion
+    height = height - (height % 4)
+    width = width - (width % 2)
+    
+    # Create a string to hold the Braille art
+    braille_str = ""
+    
+    # Each Braille character represents a 2x4 grid of dots
+    for y in range(0, height, 4):
+        for x in range(0, width, 2):
+            # Get the 8 pixels that will form one Braille character
+            # Braille dots are numbered as follows:
+            # 1 4
+            # 2 5
+            # 3 6
+            # 7 8
+            try:
+                dot1 = image[y, x] < 127
+                dot2 = image[y+1, x] < 127
+                dot3 = image[y+2, x] < 127
+                dot4 = image[y, x+1] < 127
+                dot5 = image[y+1, x+1] < 127
+                dot6 = image[y+2, x+1] < 127
+                dot7 = image[y+3, x] < 127
+                dot8 = image[y+3, x+1] < 127
+                
+                # Convert to Braille character
+                # Unicode Braille patterns start at 0x2800
+                # Each dot corresponds to a bit in the binary representation
+                dots = (dot1 * 1 + dot2 * 2 + dot3 * 4 + dot4 * 8 +
+                        dot5 * 16 + dot6 * 32 + dot7 * 64 + dot8 * 128)
+                
+                braille_char = chr(0x2800 + dots)
+                braille_str += braille_char
+            except IndexError:
+                # Handle any index errors gracefully
+                braille_str += chr(0x2800)  # Add empty Braille character
+        
+        braille_str += "\n"
+    
+    return braille_str
+
+def save_to_file(text, output_path):
+    """Save the Braille art to a text file."""
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(text)
+    print(f"Braille art saved to {output_path}")
+
+# For Colab use
+print("Please upload a JPG image")
+uploaded = files.upload()  # This will prompt you to upload a file
+
+# Process the first uploaded file
+for filename in uploaded.keys():
+    input_path = filename
+    output_path = f"braille_{filename.split('.')[0]}.txt"
+    width = 100  # You can change this default value
+    threshold = 127  # You can change this default value
+    
+    print(f"Processing {input_path}...")
+    print(f"Output will be saved to {output_path}")
+    print(f"Using width: {width}, threshold: {threshold}")
+    
+    try:
+        # Process the image
+        img = load_image(input_path)
+        resized = resize_image(img, width)
+        binary = threshold_image(resized, threshold)
+        braille = image_to_braille(binary)
+        
+        # Save the result
+        save_to_file(braille, output_path)
+        
+        # Download the result
+        files.download(output_path)
+        
+        # Print a preview
+        print("Preview of the Braille art:")
+        preview_lines = braille.split('\n')[:10]  # Show first 10 lines
+        for line in preview_lines:
+            print(line[:80])  # Limit width of preview
+        if len(preview_lines) == 10:
+            print("...")  # Indicate there's more content
+            
+    except Exception as e:
+        print(f"Error: {e}")
+    
+    # Only process the first uploaded file
+    break
