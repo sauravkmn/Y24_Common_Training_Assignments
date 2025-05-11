@@ -1,0 +1,23 @@
+[0.595s] Invoking command in '/home/spark/auvROSassignment/src/AUV': PYTHONPATH=/home/spark/auvROSassignment/build/AUV/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AUV build --build-base /home/spark/auvROSassignment/build/AUV/build install --record /home/spark/auvROSassignment/build/AUV/install.log --single-version-externally-managed install_data
+[0.734s] running egg_info
+[0.734s] writing ../../build/AUV/AUV.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../../build/AUV/AUV.egg-info/dependency_links.txt
+[0.737s] writing entry points to ../../build/AUV/AUV.egg-info/entry_points.txt
+[0.737s] writing requirements to ../../build/AUV/AUV.egg-info/requires.txt
+[0.738s] writing top-level names to ../../build/AUV/AUV.egg-info/top_level.txt
+[0.740s] reading manifest file '../../build/AUV/AUV.egg-info/SOURCES.txt'
+[0.742s] adding license file 'LICENSE'
+[0.742s] writing manifest file '../../build/AUV/AUV.egg-info/SOURCES.txt'
+[0.743s] running build
+[0.743s] running build_py
+[0.743s] running install
+[0.743s] running install_lib
+[0.744s] running install_data
+[0.744s] running install_egg_info
+[0.745s] removing '/home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV-0.0.0-py3.10.egg-info' (and everything under it)
+[0.746s] Copying ../../build/AUV/AUV.egg-info to /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV-0.0.0-py3.10.egg-info
+[0.746s] running install_scripts
+[0.759s] Installing publisher script to /home/spark/auvROSassignment/install/AUV/lib/AUV
+[0.759s] Installing subscriber script to /home/spark/auvROSassignment/install/AUV/lib/AUV
+[0.759s] writing list of installed files to '/home/spark/auvROSassignment/build/AUV/install.log'
+[0.776s] Invoked command in '/home/spark/auvROSassignment/src/AUV' returned '0': PYTHONPATH=/home/spark/auvROSassignment/build/AUV/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/AUV build --build-base /home/spark/auvROSassignment/build/AUV/build install --record /home/spark/auvROSassignment/build/AUV/install.log --single-version-externally-managed install_data

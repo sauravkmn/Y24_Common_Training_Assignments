@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = AUV.publisher:main
+subscriber = AUV.subscriber:main
+
