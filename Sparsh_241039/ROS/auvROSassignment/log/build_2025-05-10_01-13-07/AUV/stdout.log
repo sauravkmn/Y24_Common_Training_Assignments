@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/AUV/AUV.egg-info/PKG-INFO
+writing dependency_links to ../../build/AUV/AUV.egg-info/dependency_links.txt
+writing entry points to ../../build/AUV/AUV.egg-info/entry_points.txt
+writing requirements to ../../build/AUV/AUV.egg-info/requires.txt
+writing top-level names to ../../build/AUV/AUV.egg-info/top_level.txt
+reading manifest file '../../build/AUV/AUV.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/AUV/AUV.egg-info/SOURCES.txt'
+running build
+running build_py
+copying AUV/publisher.py -> /home/spark/auvROSassignment/build/AUV/build/lib/AUV
+copying AUV/subscriber.py -> /home/spark/auvROSassignment/build/AUV/build/lib/AUV
+running install
+running install_lib
+copying /home/spark/auvROSassignment/build/AUV/build/lib/AUV/publisher.py -> /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV
+copying /home/spark/auvROSassignment/build/AUV/build/lib/AUV/subscriber.py -> /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV
+byte-compiling /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV/subscriber.py to subscriber.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/AUV/AUV.egg-info to /home/spark/auvROSassignment/install/AUV/lib/python3.10/site-packages/AUV-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher script to /home/spark/auvROSassignment/install/AUV/lib/AUV
+Installing subscriber script to /home/spark/auvROSassignment/install/AUV/lib/AUV
+writing list of installed files to '/home/spark/auvROSassignment/build/AUV/install.log'
