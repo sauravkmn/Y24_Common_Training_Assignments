@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.001138] (launcher_package) JobQueued: {'identifier': 'launcher_package', 'dependencies': OrderedDict()}
+[0.001505] (launcher_package) JobStarted: {'identifier': 'launcher_package'}
+[0.097913] (-) TimerEvent: {}
+[0.198591] (-) TimerEvent: {}
+[0.299128] (-) TimerEvent: {}
+[0.400541] (-) TimerEvent: {}
+[0.502173] (-) TimerEvent: {}
+[0.603592] (-) TimerEvent: {}
+[0.704369] (-) TimerEvent: {}
+[0.813992] (-) TimerEvent: {}
+[0.914414] (-) TimerEvent: {}
+[1.015667] (-) TimerEvent: {}
+[1.116410] (-) TimerEvent: {}
+[1.217182] (-) TimerEvent: {}
+[1.317591] (-) TimerEvent: {}
+[1.420288] (-) TimerEvent: {}
+[1.467320] (launcher_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launcher_package', 'build', '--build-base', '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build', 'install', '--record', '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/raghav097891/Desktop/ROS2_WS/src/launcher_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raghav097891', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/raghav097891', 'OLDPWD': '/home/raghav097891/Desktop/ROS2_WS/src/launcher_package/launcher_package', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '40879', 'SYSTEMD_EXEC_PID': '40997', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '69624', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raghav097891', 'JOURNAL_STREAM': '8:190079', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'raghav097891', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/raghav097891/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raghavubuntu22:@/tmp/.ICE-unix/40968,unix/raghavubuntu22:/tmp/.ICE-unix/40968', 'INVOCATION_ID': 'd51a58b10f954ee2b3f7fc3c3c35bd3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WTET42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:39daa9ba-a010-4346-9632-517bba773eda', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.519774] (-) TimerEvent: {}
+[1.620527] (-) TimerEvent: {}
+[1.724312] (-) TimerEvent: {}
+[1.804283] (launcher_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.804657] (launcher_package) StdoutLine: {'line': b'creating ../../build/launcher_package/launcher_package.egg-info\n'}
+[1.804876] (launcher_package) StdoutLine: {'line': b'writing ../../build/launcher_package/launcher_package.egg-info/PKG-INFO\n'}
+[1.805068] (launcher_package) StdoutLine: {'line': b'writing dependency_links to ../../build/launcher_package/launcher_package.egg-info/dependency_links.txt\n'}
+[1.805487] (launcher_package) StdoutLine: {'line': b'writing entry points to ../../build/launcher_package/launcher_package.egg-info/entry_points.txt\n'}
+[1.805708] (launcher_package) StdoutLine: {'line': b'writing requirements to ../../build/launcher_package/launcher_package.egg-info/requires.txt\n'}
+[1.805884] (launcher_package) StdoutLine: {'line': b'writing top-level names to ../../build/launcher_package/launcher_package.egg-info/top_level.txt\n'}
+[1.806725] (launcher_package) StdoutLine: {'line': b"writing manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'\n"}
+[1.809700] (launcher_package) StdoutLine: {'line': b"reading manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'\n"}
+[1.810387] (launcher_package) StdoutLine: {'line': b"writing manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'\n"}
+[1.810497] (launcher_package) StdoutLine: {'line': b'running build\n'}
+[1.810591] (launcher_package) StdoutLine: {'line': b'running build_py\n'}
+[1.810779] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build\n'}
+[1.810923] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib\n'}
+[1.811097] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package\n'}
+[1.811244] (launcher_package) StdoutLine: {'line': b'copying launcher_package/listenernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package\n'}
+[1.811385] (launcher_package) StdoutLine: {'line': b'copying launcher_package/talkernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package\n'}
+[1.811542] (launcher_package) StdoutLine: {'line': b'copying launcher_package/__init__.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package\n'}
+[1.811659] (launcher_package) StdoutLine: {'line': b'copying launcher_package/launchernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package\n'}
+[1.811861] (launcher_package) StdoutLine: {'line': b'running install\n'}
+[1.812021] (launcher_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.812734] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package\n'}
+[1.812909] (launcher_package) StdoutLine: {'line': b'copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/listenernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package\n'}
+[1.813007] (launcher_package) StdoutLine: {'line': b'copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/talkernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package\n'}
+[1.813222] (launcher_package) StdoutLine: {'line': b'copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/__init__.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package\n'}
+[1.813407] (launcher_package) StdoutLine: {'line': b'copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/launchernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package\n'}
+[1.813819] (launcher_package) StdoutLine: {'line': b'byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/listenernode.py to listenernode.cpython-310.pyc\n'}
+[1.814235] (launcher_package) StdoutLine: {'line': b'byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/talkernode.py to talkernode.cpython-310.pyc\n'}
+[1.814820] (launcher_package) StdoutLine: {'line': b'byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/__init__.py to __init__.cpython-310.pyc\n'}
+[1.814980] (launcher_package) StdoutLine: {'line': b'byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/launchernode.py to launchernode.cpython-310.pyc\n'}
+[1.815208] (launcher_package) StdoutLine: {'line': b'running install_data\n'}
+[1.815432] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index\n'}
+[1.815551] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index\n'}
+[1.815611] (launcher_package) StdoutLine: {'line': b'creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index/packages\n'}
+[1.815673] (launcher_package) StdoutLine: {'line': b'copying resource/launcher_package -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index/packages\n'}
+[1.815856] (launcher_package) StdoutLine: {'line': b'copying package.xml -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/launcher_package\n'}
+[1.815995] (launcher_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.818313] (launcher_package) StdoutLine: {'line': b'Copying ../../build/launcher_package/launcher_package.egg-info to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package-0.0.0-py3.10.egg-info\n'}
+[1.820299] (launcher_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.824322] (-) TimerEvent: {}
+[1.883663] (launcher_package) StdoutLine: {'line': b'Installing launchernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package\n'}
+[1.884393] (launcher_package) StdoutLine: {'line': b'Installing listenernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package\n'}
+[1.884527] (launcher_package) StdoutLine: {'line': b'Installing talkernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package\n'}
+[1.885422] (launcher_package) StdoutLine: {'line': b"writing list of installed files to '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/install.log'\n"}
+[1.924833] (-) TimerEvent: {}
+[1.935058] (launcher_package) CommandEnded: {'returncode': 0}
+[1.956407] (launcher_package) JobEnded: {'identifier': 'launcher_package', 'rc': 0}
+[1.960990] (-) EventReactorShutdown: {}

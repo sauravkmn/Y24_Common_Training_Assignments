@@ -1,0 +1,5 @@
+[console_scripts]
+launchernode = launcher_package.launchernode:main
+listenernode = launcher_package.listenernode:main
+talkernode = launcher_package.talkernode:main
+
