@@ -1,0 +1,21 @@
+[0.652s] Invoking command in '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package': PYTHONPATH=/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build --no-deps symlink_data --force
+[0.830s] running develop
+[0.950s] running egg_info
+[0.951s] writing launcher_package.egg-info/PKG-INFO
+[0.951s] writing dependency_links to launcher_package.egg-info/dependency_links.txt
+[0.951s] writing entry points to launcher_package.egg-info/entry_points.txt
+[0.952s] writing requirements to launcher_package.egg-info/requires.txt
+[0.952s] writing top-level names to launcher_package.egg-info/top_level.txt
+[0.953s] reading manifest file 'launcher_package.egg-info/SOURCES.txt'
+[0.954s] writing manifest file 'launcher_package.egg-info/SOURCES.txt'
+[0.954s] running build_ext
+[0.954s] Creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher-package.egg-link (link to .)
+[0.955s] Installing launchernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+[0.955s] Installing listenernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+[0.955s] Installing talkernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+[0.955s] 
+[0.956s] Installed /home/raghav097891/Desktop/ROS2_WS/build/launcher_package
+[0.956s] running symlink_data
+[0.956s] symbolically linking /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/resource/launcher_package -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index/packages
+[0.956s] symbolically linking /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/package.xml -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/launcher_package
+[0.973s] Invoked command in '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package' returned '0': PYTHONPATH=/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build --no-deps symlink_data --force

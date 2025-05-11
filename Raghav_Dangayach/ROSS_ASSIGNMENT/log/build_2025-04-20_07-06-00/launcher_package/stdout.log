@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/launcher_package/launcher_package.egg-info
+writing ../../build/launcher_package/launcher_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/launcher_package/launcher_package.egg-info/dependency_links.txt
+writing entry points to ../../build/launcher_package/launcher_package.egg-info/entry_points.txt
+writing requirements to ../../build/launcher_package/launcher_package.egg-info/requires.txt
+writing top-level names to ../../build/launcher_package/launcher_package.egg-info/top_level.txt
+writing manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/launcher_package/launcher_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build
+creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib
+creating /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package
+copying launcher_package/listenernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package
+copying launcher_package/talkernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package
+copying launcher_package/__init__.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package
+copying launcher_package/launchernode.py -> /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package
+running install
+running install_lib
+creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package
+copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/listenernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package
+copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/talkernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package
+copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/__init__.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package
+copying /home/raghav097891/Desktop/ROS2_WS/build/launcher_package/build/lib/launcher_package/launchernode.py -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package
+byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/listenernode.py to listenernode.cpython-310.pyc
+byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/talkernode.py to talkernode.cpython-310.pyc
+byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package/launchernode.py to launchernode.cpython-310.pyc
+running install_data
+creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index
+creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index
+creating /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index/packages
+copying resource/launcher_package -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/share/launcher_package
+running install_egg_info
+Copying ../../build/launcher_package/launcher_package.egg-info to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/python3.10/site-packages/launcher_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing launchernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+Installing listenernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+Installing talkernode script to /home/raghav097891/Desktop/ROS2_WS/install/launcher_package/lib/launcher_package
+writing list of installed files to '/home/raghav097891/Desktop/ROS2_WS/build/launcher_package/install.log'
