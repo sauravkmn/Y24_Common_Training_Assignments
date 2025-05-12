@@ -1,0 +1,43 @@
+[0.362s] Invoking command in '/home/ira/ros2_ws/src/talker_listener': PYTHONPATH=/home/ira/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/ira/ros2_ws/build/talker_listener/build install --record /home/ira/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
+[0.494s] running egg_info
+[0.494s] creating ../../build/talker_listener/talker_listener.egg-info
+[0.495s] writing ../../build/talker_listener/talker_listener.egg-info/PKG-INFO
+[0.495s] writing dependency_links to ../../build/talker_listener/talker_listener.egg-info/dependency_links.txt
+[0.495s] writing entry points to ../../build/talker_listener/talker_listener.egg-info/entry_points.txt
+[0.495s] writing requirements to ../../build/talker_listener/talker_listener.egg-info/requires.txt
+[0.495s] writing top-level names to ../../build/talker_listener/talker_listener.egg-info/top_level.txt
+[0.495s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.496s] reading manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.496s] writing manifest file '../../build/talker_listener/talker_listener.egg-info/SOURCES.txt'
+[0.496s] running build
+[0.496s] running build_py
+[0.496s] creating /home/ira/ros2_ws/build/talker_listener/build
+[0.496s] creating /home/ira/ros2_ws/build/talker_listener/build/lib
+[0.497s] creating /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.497s] copying talker_listener/listener.py -> /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.497s] copying talker_listener/talker.py -> /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.497s] copying talker_listener/__init__.py -> /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener
+[0.497s] running install
+[0.497s] running install_lib
+[0.497s] creating /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.497s] copying /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener/listener.py -> /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.497s] copying /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener/talker.py -> /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.497s] copying /home/ira/ros2_ws/build/talker_listener/build/lib/talker_listener/__init__.py -> /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener
+[0.497s] byte-compiling /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/listener.py to listener.cpython-310.pyc
+[0.497s] byte-compiling /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/talker.py to talker.cpython-310.pyc
+[0.498s] byte-compiling /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener/__init__.py to __init__.cpython-310.pyc
+[0.498s] running install_data
+[0.498s] creating /home/ira/ros2_ws/install/talker_listener/share
+[0.498s] creating /home/ira/ros2_ws/install/talker_listener/share/ament_index
+[0.498s] creating /home/ira/ros2_ws/install/talker_listener/share/ament_index/resource_index
+[0.498s] creating /home/ira/ros2_ws/install/talker_listener/share/ament_index/resource_index/packages
+[0.498s] copying resource/talker_listener -> /home/ira/ros2_ws/install/talker_listener/share/ament_index/resource_index/packages
+[0.498s] creating /home/ira/ros2_ws/install/talker_listener/share/talker_listener
+[0.498s] copying package.xml -> /home/ira/ros2_ws/install/talker_listener/share/talker_listener
+[0.498s] running install_egg_info
+[0.499s] Copying ../../build/talker_listener/talker_listener.egg-info to /home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages/talker_listener-0.0.0-py3.10.egg-info
+[0.499s] running install_scripts
+[0.511s] Installing listener script to /home/ira/ros2_ws/install/talker_listener/lib/talker_listener
+[0.511s] Installing talker script to /home/ira/ros2_ws/install/talker_listener/lib/talker_listener
+[0.511s] writing list of installed files to '/home/ira/ros2_ws/build/talker_listener/install.log'
+[0.524s] Invoked command in '/home/ira/ros2_ws/src/talker_listener' returned '0': PYTHONPATH=/home/ira/ros2_ws/build/talker_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ira/ros2_ws/install/talker_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/talker_listener build --build-base /home/ira/ros2_ws/build/talker_listener/build install --record /home/ira/ros2_ws/build/talker_listener/install.log --single-version-externally-managed install_data
