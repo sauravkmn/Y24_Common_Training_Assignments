@@ -1,0 +1,3 @@
+source;share/talker_listener/hook/pythonpath.ps1
+source;share/talker_listener/hook/pythonpath.dsv
+source;share/talker_listener/hook/pythonpath.sh
